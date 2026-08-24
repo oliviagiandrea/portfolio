@@ -1,232 +1,227 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Olivia Giandrea's Portfolio" />
+    <meta
+      name="keywords"
+      content="Olivia Giandrea, Software Engineer at SurveyMonkey"
+    />
 
-<head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description" content="Olivia Giandrea's Portfolio">
-	<meta name="keywords" content="Olivia Giandrea, Software Engineer at SurveyMonkey">
+    <link rel="stylesheet" href="assets/styles.css" />
+    <link rel="icon" href="assets/img/logo.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
+      rel="stylesheet"
+    />
+    <title>Olivia Giandrea</title>
+  </head>
 
-	<link rel="stylesheet" href="assets/styles.css">
-	<link rel="icon" href="assets/img/logo.svg">
-	<link rel="stylesheet" href="https://use.typekit.net/ufg7hqz.css">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link
-		href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
-		rel="stylesheet">
-	<title>Olivia Giandrea</title>
-</head>
+  <body>
+    <nav>
+      <div class="logo">
+        <img src="assets/img/logo.svg" alt="Navbar Star Logo" class="logo" />
+      </div>
+      <ul>
+        <li><a class="active" href="#home">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
 
-<body>
-	<!--Navigation Bar-->
-	<nav class="primary-header">
-		<a href="#about" class="logoWrapper">
-			<img src="assets/img/logo.svg" alt="Navbar Star Logo" class="logo" /> Olivia Giandrea
-		</a>
-		<button class="mobile-nav-toggle" aria-controls="primary-navigation" aria-expanded="false">
-			<span class="sr-only">Menu</span>
-		</button>
-		<ul id="primary-navigation" data-visible="false" class="primary-navigation">
-			<li class="nav-link">
-				<a href="#about">
-					<span aria-hidden="true">01</span>About
-				</a>
-			</li>
-			<li class="nav-link">
-				<a href="#projects">
-					<span aria-hidden="true">02</span>Projects
-				</a>
-			</li>
-			<li class="nav-link">
-				<a href="#contact">
-					<span aria-hidden="true">03</span>Contact
-				</a>
-			</li>
-			<li class="resume">
-				<a href="/assets/resume.pdf" class="button">Résumé</a>
-			</li>
-		</ul>
-	</nav>
+    <div class="content">
+      <div class="home" id="home">
+        <section class="home-section">
+          <div class="twinkles">
+            <div class="landing-text">
+              <h1 class="title">Olivia Giandrea</h1>
+              <p class="description">Curious by nature, precise by practice.</p>
+            </div>
+          </div>
+        </section>
 
-	<div class="content">
-		<!--Home Page-->
-		<section id="home-section">
-			<div class="container row twinkles" id="home-wrap">
-				<div class="container row">
-					<div class="container column" id="landing-text">
-						<h1 class="title">Olivia Giandrea</h1>
-						<div class="description">
-							<p>Curious by nature, precise by practice.</p><br />
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
+        <section class="about-section">
+          <div class="about-content">
+            <h1 class="subtitle">01 . About Me</h1>
+            <p>Hello!</p>
+            <p>
+              I'm Olivia, a software engineer at
+              <span class="gold">SurveyMonkey</span>.
+            </p>
+            <p>
+              I specialize in building high-performance
+              <span class="gold">React applications</span>, scalable
+              <span class="gold">design systems</span>, and
+              <span class="gold">engineering tooling</span> that accelerates
+              development, improves accessibility, and enables consistent
+              product delivery.
+            </p>
+            <p>
+              In my free time, I enjoy hiking, baking, sewing, and stargazing.
+            </p>
+            <p>Thanks for stopping by!</p>
+          </div>
+          <div class="about-image">
+            <img src="assets/img/hiking.jpg" alt="Self-Portrait Photo" />
+          </div>
+        </section>
 
-		<!--About Section-->
-		<section id="about">
-			<div class="about-container">
-				<div class="about-item-left about-text">
-					<div id="about-text">
-						<h1 class="subtitle">01 . About Me</h1>
-						<p id="about-p">
-							Hello!
-							<br /><br />
-							I'm Olivia, a software engineer at <span class="gold">SurveyMonkey</span>.
-							<br /><br />
-							I specialize in building high-performance <span class="gold">React applications</span>,
-							scalable <span class="gold">design systems</span>, and
-							<span class="gold">engineering tooling</span> that accelerates
-							development, improves accessibility, and enables consistent product delivery.
-							<br /><br />
-							In my free time, I enjoy hiking, baking, sewing, and stargazing.
-							<br /><br />
-							Thanks for stopping by!
-						</p>
-					</div>
-				</div>
-				<div class="about-item-right">
-					<img src="assets/img/hiking.jpg" alt="Self-Portrait Photo" id="about-img">
-				</div>
-			</div>
-		</section>
+        <section class="skills-section">
+          <h1 class="subtitle">02 . Skills</h1>
+          <div class="skills">
+            <div class="skills-group">
+              <h2>Languages</h2>
+              <ul>
+                <li>JavaScript</li>
+                <li>TypeScript</li>
+                <li>Python</li>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>SASS</li>
+              </ul>
+            </div>
+            <div class="skills-group">
+              <h2>Libraries/Frameworks</h2>
+              <ul>
+                <li>React</li>
+                <li>Next.js</li>
+                <li>Node.js</li>
+                <li>Express</li>
+                <li>Bootstrap</li>
+                <li>Tailwind CSS</li>
+                <li>jQuery</li>
+              </ul>
+            </div>
+            <div class="skills-group">
+              <h2>Platforms/Developer Tools</h2>
+              <ul>
+                <li>Git</li>
+                <li>Github Actions</li>
+                <li>Dependabot</li>
+                <li>Docker</li>
+                <li>Amazon Web Services (AWS)</li>
+                <li>Webpack</li>
+                <li>Jest</li>
+                <li>WebdriverIO</li>
+                <li>Figma</li>
+                <li>Storybook</li>
+                <li>Unix</li>
+              </ul>
+            </div>
+            <div class="skills-group">
+              <h2>Data/Web Technologies</h2>
+              <ul>
+                <li>REST APIs</li>
+                <li>GraphQL</li>
+                <li>MySQL</li>
+                <li>MongoDB</li>
+                <li>Accessibility (WCAG)</li>
+                <li>Static Site Generation</li>
+              </ul>
+            </div>
+            <div class="skills-group">
+              <h2>Engineering Practices</h2>
+              <ul>
+                <li>Agile Development</li>
+                <li>Design Systems</li>
+                <li>Component Design</li>
+                <li>API Design</li>
+                <li>Data Modeling</li>
+                <li>Content Modeling</li>
+                <li>User Experience (UX)</li>
+                <li>Documentation</li>
+                <li>Leadership</li>
+                <li>Teamwork</li>
+                <li>Written Communication</li>
+              </ul>
+            </div>
+          </div>
+        </section>
+      </div>
 
-		<!--Skills Section-->
-		<section id="skills-section">
-			<div class="skills-container">
-				<h1 class="subtitle" id="skills">02 . Skills</h1>
-				<div class="skills">
-					<div class="skills-group">
-						<h3>Languages</h3>
-						<ul>
-							<li>JavaScript</li>
-							<li>TypeScript</li>
-							<li>Python</li>
-							<li>HTML</li>
-							<li>CSS</li>
-							<li>SASS</li>
-						</ul>
-					</div>
-					<div class="skills-group">
-						<h3>Libraries/ <br />Frameworks</h3>
-						<ul>
-							<li>React</li>
-							<li>Next.js</li>
-							<li>Node.js</li>
-							<li>Express</li>
-							<li>Bootstrap</li>
-							<li>Tailwind CSS</li>
-							<li>jQuery</li>
-						</ul>
-					</div>
-					<div class="skills-group">
-						<h3>Platforms/ <br />Developer Tools</h3>
-						<ul>
-							<li>Git</li>
-							<li>Github Actions</li>
-							<li>Dependabot</li>
-							<li>Docker</li>
-							<li>Amazon Web Services (AWS)</li>
-							<li>Webpack</li>
-							<li>Jest</li>
-							<li>WebdriverIO</li>
-							<li>Figma</li>
-							<li>Storybook</li>
-							<li>Unix</li>
-						</ul>
-					</div>
-					<div class="skills-group">
-						<h3>Data/Web <br />Technologies</h3>
-						<ul>
-							<li>REST APIs</li>
-							<li>GraphQL</li>
-							<li>MySQL</li>
-							<li>MongoDB</li>
-							<li>Accessibility (WCAG)</li>
-							<li>Static Site Generation</li>
-						</ul>
-					</div>
-					<div class="skills-group">
-						<h3>Engineering Practices</h3>
-						<ul>
-							<li>Agile Development</li>
-							<li>Design Systems</li>
-							<li>Component Design</li>
-							<li>API Design</li>
-							<li>Data Modeling</li>
-							<li>Content Modeling</li>
-							<li>User Experience (UX)</li>
-							<li>Documentation</li>
-							<li>Leadership</li>
-							<li>Teamwork</li>
-							<li>Written Communication</li>
-						</ul>
-					</div>
-				</div>
-				<img src="assets/img/starbanner.svg" alt="Star Banner" class="star-banner" />
-			</div>
-		</section>
+      <section class="projects-section" id="projects">
+        <h1 class="subtitle">03 . Projects</h1>
+        <article class="project">
+          <div class="project-img">
+            <img
+              src="assets/img/wrench.png"
+              alt="Screenshot of SurveyMonkey's home page"
+            />
+          </div>
+          <div class="project-notes">
+            <h2>Wrench Design System</h2>
+            <p>
+              SurveyMonkey's design system used across multiple products to
+              provide reusable UI components, shared styling infrastructure, and
+              accessibility standards.
+            </p>
+            <p>
+              Contributed component architecture, developer tooling,
+              documentation, and a company-wide migration from JSS to CSS
+              Modules.
+            </p>
+            <div class="project-technologies">
+              <div class="technology">React</div>
+              <div class="technology">TypeScript</div>
+              <div class="technology">SASS/CSS Modules</div>
+              <div class="technology">Storybook</div>
+              <div class="technology">GitHub Actions</div>
+            </div>
+          </div>
+        </article>
+        <article class="project">
+          <div class="project-img">
+            <img
+              src="assets/img/enercon.png"
+              alt="Screenshot of Enercon Technologies' home page"
+            />
+          </div>
+          <div class="project-notes">
+            <h2>Enercon Technologies Intranet Site</h2>
+            <p>
+              Internal company intranet supporting manufacturing operations,
+              production workflows, and employee tooling.
+            </p>
+            <p>
+              Redesigned the frontend, modernized legacy applications, and
+              automated validation processes to improve efficiency across
+              day-to-day operations.
+            </p>
+            <div class="project-technologies">
+              <div class="technology">HTML</div>
+              <div class="technology">CSS</div>
+              <div class="technology">JavaScript (jQuery)</div>
+              <div class="technology">C#</div>
+              <div class="technology">SQL</div>
+            </div>
+          </div>
+        </article>
+      </section>
 
-		<!--Projects Section-->
-		<section id="projects">
-			<h1 class="subtitle" id="projects-title">03 . Projects</h1>
-			<div class="projects-container">
-				<div class="row">
-					<div class="column-notes">
-						<h2>Wrench Design System</h2>
-						<p>
-							SurveyMonkey's design system used across multiple products to provide reusable UI
-							components,
-							shared styling infrastructure, and accessibility standards. Contributed component
-							architecture,
-							developer tooling, documentation, and a company-wide migration from JSS to CSS Modules.
-						</p>
-						<h3>Key Technologies</h3>
-						<p>
-							React, TypeScript, SASS/CSS Modules, Storybook, GitHub Actions
-						</p>
-					</div>
-					<div class="column-img">
-						<img src="assets/img/wrench.png" alt="Screenshot of SurveyMonkey's home page" />
-					</div>
-				</div>
-				<div class="row">
-					<div class="column-img">
-						<img src="assets/img/enercon.png" alt="Screenshot of Enercon Technologies' home page" />
-					</div>
-					<div class="column-notes">
-						<h2>Enercon Technologies Intranet Site</h2>
-						<p>
-							Internal company intranet supporting manufacturing operations, production workflows, and
-							employee tooling. Redesigned the frontend, modernized legacy applications, and automated
-							validation processes to improve efficiency across day-to-day operations.
-						</p>
-						<h3>Key Technologies</h3>
-						<p>
-							HTML, CSS, JavaScript (jQuery), C#, SQL
-						</p>
-					</div>
-				</div>
-			</div>
-		</section>
+      <section class="contact-section" id="contact">
+        <h1 class="subtitle">04 . Contact</h1>
+        <p>Let's connect!</p>
+        <div class="contact-links">
+          <a href="mailto:olivia.giandrea@gmail.com" class="button">Email</a>
+          <a
+            href="https://www.linkedin.com/in/oliviagiandrea/"
+            target="_blank"
+            class="button"
+            >LinkedIn</a
+          >
+          <a
+            href="https://github.com/oliviagiandrea/"
+            target="_blank"
+            class="button"
+            >Github</a
+          >
+        </div>
+      </section>
+    </div>
 
-		<!--Contact Page-->
-		<section id="contact">
-			<div class="container column contact-wrap">
-				<h1 class="subtitle" id="contact-title">04 . Contact</h1>
-				<p style="padding-bottom: 1rem; text-align: center;">
-					Let's connect!
-				</p>
-				<div class="container row">
-					<a href="mailto:olivia.giandrea@gmail.com" class="button">Email</a>
-					<a href="https://www.linkedin.com/in/oliviagiandrea/" target="_blank" class="button">LinkedIn</a>
-					<a href="https://github.com/oliviagiandrea/" target="_blank" class="button">Github</a>
-				</div>
-			</div>
-		</section>
-	</div>
-
-	<script src="assets/scripts.js"></script>
-</body>
-
+    <script src="assets/scripts.js"></script>
+  </body>
 </html>
